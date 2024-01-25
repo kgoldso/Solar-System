@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Марс</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="style_planet.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+        $(function(){
+            $("#header-placeholder").load("header.html");
+        });
+    </script>
+
+
+<div class="page-container">
+    <div class="name">МАРС</div>
+    <div class="background-img"><img src="img/Mars.png" alt="page1">
+    </div>
+
+
+        <div class="wrapper">
+        <div class="table-container">
+            <!-- Таблица с 9 строками и 2 столбцами -->
+            <table>
+                <!-- Заполненные ячейки таблицы -->
+                <tr><td>Macca:</td><td>6,4*10^23 кг. (0,107 массы Земли)</td></tr>
+                <tr><td>Диаметр:</td><td>6670 км. (0,53 диаметра Земли)</td></tr>
+                <tr><td>Плотность:</td><td>3,95 г/см3</td></tr>
+                <tr><td>Температура поверхности:</td><td>-23°C на большей части поверхности, -150°C на полюсах, 0°C на экваторе</td></tr>
+                <tr><td>Длина суток:</td><td>24,6229 часа</td></tr>
+                <tr><td>Расстояние от Солнца(среднее):</td><td>1,5237 а.е., то есть 228 млн.км.</td></tr>
+                <tr><td>Период обращения по орбите(год):</td><td>687 земных суток</td></tr>
+                <tr><td>Скорость вращения по орбите:</td><td>24,1 км/c</td></tr>
+                <tr><td>Ускорение свободного падения:</td><td>3,7 м/c^2</td></tr>
+            </table>
+            
+            
+        </div>
+        <div class="text-container">
+            <!-- Добавьте ваш текст сюда -->
+            <p>Марс — четвертая планета Солнечной системы. Имеет сходство с Землёй, но имеет меньшую величину и температуру на поверхности. На Марсе располагаются большие вулканы, пустыни и каньоны. Эта красная планета сопровождается двумя спутниками — Деймос, Фобос. Марс — единственный космический объект ( не считая Луны) до которого может дотянуться человек с помощью современных ракет и зондов.
+
+                Для космонавтов этот путь может занять примерно 4 года и будет новым шагом в освоении космоса. Рядом с экватором Марса, располагается район именуемый Тарсис.  </p>
+        </div>
+    </div>
+    
+</div>
+
+
+
+    <div id="footer-placeholder"></div>
+    <script>
+        $(function(){
+            $("#footer-placeholder").load("footer.html");
+        });
+</script>
+</body>
+</html>

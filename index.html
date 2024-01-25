@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Солнечная система</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+</head>
+<body>
+
+
+
+  <div id="header-placeholder"></div>
+  <script>
+      $(function(){
+          $("#header-placeholder").load("header.html");
+      });
+  </script>
+
+
+
+
+
+    <div class="first-section">
+
+      <div class="center_logo">
+      <div class="logo">
+        <img src="img/logo.png" alt="Логотип сайта">
+      </div>
+      <div class="title">
+        <h1>Планеты Солнечной системы</h1>
+      </div>
+      </div>
+
+      <div class="background-img"></div>
+      <div class="centered-text">
+          <h1>Добро пожаловать в увлекательный мир космоса</h1>
+      </div>
+  </div>
+
+  <section class="facts_section">
+    <div class="block">
+        <img src="img/sun_pea.jpg" alt="Фотография 1">
+        <p>Если бы Солнце было размером горошинки, то Земля находилась бы на расстоянии около 15 метров от него.</p>
+    </div>
+    
+    <div class="block">
+        <img src="img/rings_of_saturn.jpg" alt="Фотография 2">
+        <p>Кольца Сатурна состоят из миллиардов кусочков льда и породы, некоторые из которых могут быть размером от песчинки до нескольких метров.</p>
+    </div>
+    
+    <div class="block">
+        <img src="img/clouds_of_jupiter.jpg" alt="Фотография 3">
+        <p>Юпитер - самая большая планета в солнечной системе, и его атмосфера состоит в основном из водорода и гелия. </p>
+    </div>
+</section>
+
+    <main>
+        <video autoplay loop muted>
+            <source src="video/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      <div class="planets">
+
+        <!-- Меркурий -->
+        <div class="planet" id="mercury" data-description="Меркурий — самая близкая к Солнцу планета в Солнечной системе и вторая по размеру после Земли.">
+          <img src="img/Mercury.png" alt="Меркурий">
+          <div class="planet-info">
+            <p>Меркурий</p>
+          </div>
+        </div>
+
+        <!-- Венера -->
+        <div class="planet" id="venus" data-description="На Венере существует явление под названием вечерняя и утренняя звезда, когда планета видна на небе как яркая точка света или звезда, и это происходит из-за её близкого положения к Солнцу и синхронного вращения.">
+          <img src="img/Venus.png" alt="Венера">
+          <div class="planet-info">
+            <p>Венера</p>
+          </div>
+        </div>
+
+        <!-- Земля -->
+        <div class="planet" id="earth" data-description="Земля — единственная известная нам планета, населенная разнообразной жизнью, благодаря уникальным условиям, созданным её атмосферой и климатом.">
+          <img src="img/Earth.png" alt="Земля">
+          <div class="planet-info">
+            <p>Земля</p>
+          </div>
+        </div>
+
+        <!-- Марс -->
+        <div class="planet" id="mars" data-description="Марс, четвёртая планета от Солнца, известен своей красной окраской из-за высокого содержания окисленного железа на поверхности, исследование которой раскрывает возможные следы прошлой водной активности и вызывает интерес к поиску след
+
+ов жизни.">
+          <img src="img/Mars.png" alt="Марс">
+          <div class="planet-info">
+            <p>Марс</p>
+          </div>
+        </div>
+
+        <!-- Юпитер -->
+        <div class="planet" id="jupiter" data-description="Юпитер, самая крупная планета в Солнечной системе, известна своей масштабной газовой атмосферой и мощным магнитным полем; на его поверхности разгорается Большое Красное Пятно — гигантский шторм, существующий уже более 300 лет.">
+          <img src="img/Jupiter.png" alt="Юпитер">
+          <div class="planet-info">
+            <p>Юпитер</p>
+          </div>
+        </div>
+
+        <!-- Сатурн -->
+        <div class="planet" id="saturn" data-description="Сатурн, украшенный великолепными колецами, представляет уникальное астрономическое явление; эти кольца, состоящие из ледяных частиц и порошка, являются одним из самых захватывающих видов в Солнечной системе.">
+          <img src="img/Saturn.png" alt="Сатурн">
+          <div class="planet-info">
+            <p>Сатурн</p>
+          </div>
+        </div>
+
+        <!-- Уран -->
+        <div class="planet" id="uranus" data-description="Уран, седьмая планета от Солнца, выделяется своим наклоном оси вращения на 98 градусов, что приводит к тому, что он вращается на боку, а также обладает характерным голубым оттенком в атмосфере, вызванным присутствием метана.">
+          <img src="img/Uranus.png" alt="Уран">
+          <div class="planet-info">
+            <p>Уран</p>
+          </div>
+        </div>
+        
+        <!-- Нептун -->
+        <div class="planet" id="neptune" data-description="Нептун, восьмая и самая отдаленная планета от Солнца в Солнечной системе, обладает бурными атмосферными явлениями, включая самые высокие ветры, достигающие 2,100 км/ч, и темные штормовые облака.">
+          <img src="img/Neptune.png" alt="Нептун">
+          <div class="planet-info">
+            <p>Нептун</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Добавленная структура для отображения выбранной планеты -->
+      <div class="selected-planet" style="display: none;">
+        <div class="planet-details">
+          <img class="main-planet-img" src="" alt="Selected Planet Image">
+          <div class="planet-info">
+            <p class="planet-name"></p>
+            <p class="planet-description"></p>
+            <button class="back-btn">Вернуться</button>
+          </div>
+        </div>
+        <div class="planet-gallery"></div>
+      </div>
+    </main>
+
+
+    <section class="video_section" id="video_sec">
+      <div class="background-image"></div>
+      <div class="video-container">
+          <h1 class="video-title">МКС ОНЛАЙН</h1>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/P9C25Un7xaM?si=kovElFlJmNdUuciF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <script>
+        $(function(){
+            $("#footer-placeholder").load("footer.html");
+        });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
